@@ -1,0 +1,31 @@
+{
+    "test_metrics": {
+        "XGBoost": {
+            "PR-AUC": 0.4569661166140316,
+            "ROC-AUC": 0.8807725088993832,
+            "Precision": 0.13633404227614046,
+            "Recall": 0.7728838582677166,
+            "F2-score": 0.39966916910548417,
+            "MCC": 0.2752698887359051
+        }
+    },
+    "validation_comparison": {
+        "XGBoost": {
+            "PR-AUC": 0.5397176549497739,
+            "ROC-AUC": 0.9118645784792431
+        },
+        "Isolation Forest": {
+            "PR-AUC": 0.05465093816329354,
+            "ROC-AUC": 0.6159047348906944
+        },
+        "LOF": {
+            "PR-AUC": 0.05231419025779572,
+            "ROC-AUC": 0.5413653247428598
+        }
+    },
+    "evaluation_information": {
+        "test_threshold": 0.45,
+        "validation_comparison_sample_size": 20000,
+        "comparison_note": "Les mod\u00e8les non supervis\u00e9s ont \u00e9t\u00e9 entra\u00een\u00e9s sur des \u00e9chantillons et des variables diff\u00e9rents."
+    }
+}

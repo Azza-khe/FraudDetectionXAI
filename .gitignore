@@ -1,0 +1,38 @@
+
+# Environnement virtuel
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Fichiers temporaires
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Configuration locale
+.env
+.env.*
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Git
+.git/
+
+# Données volumineuses
+data/raw/
+data/processed/
