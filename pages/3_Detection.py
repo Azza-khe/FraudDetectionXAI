@@ -24,7 +24,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "processed" / "test.parquet"
 MODELS_DIR = ROOT / "models"
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://frauddetectionxai.onrender.com"
 
 
 # ============================================================
